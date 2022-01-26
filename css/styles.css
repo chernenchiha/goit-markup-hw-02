@@ -1,0 +1,127 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --other-text-color: #fff;
+    --primary-rectangle-color: #F5F4FA;
+    --accent-rectangle-color: #2196F3;
+    --primary-background-color: #E5E5E5;
+    --secondary-background-color: #F5F4FA;
+    --head-background-color: #FFFFFF;
+    --footer-background-color: #2F303A;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+}
+
+/*Header*/
+
+.header{
+    background-color: var(--head-background-color);
+}
+
+.logo{
+    color: var(--accent-text-color);
+    font-family: raleway;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo-header {
+    color: var(--title-text-color);
+}
+
+.list{
+    list-style: none;
+}
+
+.site-nav .link{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-text-color);
+}
+
+.contacts {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--accent-text-color);
+}
+
+/*Hero*/
+
+.hero-title {
+    background-color: var(--footer-background-color);
+    color: var(--other-text-color);
+}
+
+.service {
+    background-color: var(--accent-rectangle-color);
+    color: var(--other-text-color);
+}
+
+.service:hover,
+.service:focus {
+    background-color: #0028db;
+}
+
+/*main*/
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: bold;
+}
+
+.subtitle {
+    color: var(--title-text-color);
+}
+
+.name {
+    color: var(--title-text-color);
+}
+
+.section-team {
+    background-color: var(--secondary-background-color);
+}
+
+    /*footer*/
+
+.footer {
+    background-color: var(--footer-background-color);
+}
+
+.logo-footer {
+    color: var(--other-text-color);
+}
+
+.address {
+    color: var(--other-text-color);
+    font-style: normal;
+}
+
+.contacts-footer{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF99;
+    text-decoration: none;
+}
+
