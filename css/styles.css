@@ -15,7 +15,7 @@ body {
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
     font-family: roboto, sans-serif;
-    font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
 /*Header*/
@@ -26,9 +26,11 @@ body {
 
 .logo{
     color: var(--accent-text-color);
-    font-family: raleway;
+    font-family: raleway, sans-serif;
     font-weight: bold;
     text-decoration: none;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .logo-header {
@@ -45,6 +47,9 @@ body {
     font-size: 14px;
     line-height: 16px;
     text-decoration: none;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -53,12 +58,12 @@ body {
 }
 
 .contacts {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
     color: var(--primary-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contacts:hover,
@@ -71,11 +76,25 @@ body {
 .hero-title {
     background-color: var(--footer-background-color);
     color: var(--other-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
-
+/*кнопка не делается по середине*/
 .service {
     background-color: var(--accent-rectangle-color);
     color: var(--other-text-color);
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .service:hover,
@@ -88,18 +107,41 @@ body {
 .section-title {
     color: var(--title-text-color);
     font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 .subtitle {
     color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.subtitle-text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+
+
+.section-team {
+    background-color: var(--secondary-background-color);
 }
 
 .name {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
-.section-team {
-    background-color: var(--secondary-background-color);
+.name-text {
+    font-size: 16px;
+    line-height: 1.19;
 }
 
     /*footer*/
@@ -110,18 +152,24 @@ body {
 
 .logo-footer {
     color: var(--other-text-color);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
-.address {
+.address-map {
     color: var(--other-text-color);
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
 }
 
 .contacts-footer{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     font-size: 14px;
-    line-height: 24px;
-    color: #FFFFFF99;
-    text-decoration: none;
+    line-height: 1.71;   
 }
 
