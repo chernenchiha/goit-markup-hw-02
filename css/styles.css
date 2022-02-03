@@ -37,6 +37,7 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    color: var(--title-text-color);
 }
 
 /*Logo*/
@@ -102,7 +103,7 @@ body {
 
 .main-btn:hover,
 .main-btn:focus {
-    background-color: #0028db;
+    background-color: #188CE8;
 }
 
 /*main*/
